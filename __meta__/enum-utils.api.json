@@ -1,0 +1,375 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.0.18",
+    "schemaVersion": 1000
+  },
+  "kind": "Package",
+  "canonicalReference": "enum-utils",
+  "docComment": "",
+  "name": "enum-utils",
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "",
+      "name": "",
+      "members": [
+        {
+          "kind": "Variable",
+          "canonicalReference": "EnumUtils",
+          "docComment": "/**\n * Enum util methods.\n *\n * @public\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Reference",
+              "text": "EnumUtils"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Content",
+              "text": "{\n    "
+            },
+            {
+              "kind": "Reference",
+              "text": "entries"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": " = unknown>("
+            },
+            {
+              "kind": "Reference",
+              "text": "e"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": "): [string, "
+            },
+            {
+              "kind": "Reference",
+              "text": "GetValueType"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": ">][];\n    "
+            },
+            {
+              "kind": "Reference",
+              "text": "keys"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": " = unknown>("
+            },
+            {
+              "kind": "Reference",
+              "text": "e"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": "): string[];\n    "
+            },
+            {
+              "kind": "Reference",
+              "text": "keysByValue"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": " = unknown>("
+            },
+            {
+              "kind": "Reference",
+              "text": "e"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": "): {\n        ["
+            },
+            {
+              "kind": "Reference",
+              "text": "key"
+            },
+            {
+              "kind": "Content",
+              "text": ": string]: string;\n    };\n    "
+            },
+            {
+              "kind": "Reference",
+              "text": "values"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": " = unknown>("
+            },
+            {
+              "kind": "Reference",
+              "text": "e"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Reference",
+              "text": "GetValueType"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": ">[];\n    "
+            },
+            {
+              "kind": "Reference",
+              "text": "valuesByKey"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": " = unknown>("
+            },
+            {
+              "kind": "Reference",
+              "text": "input"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": "): {\n        ["
+            },
+            {
+              "kind": "Reference",
+              "text": "key"
+            },
+            {
+              "kind": "Content",
+              "text": ": string]: "
+            },
+            {
+              "kind": "Reference",
+              "text": "GetValueType"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": ">;\n    };\n}"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "EnumUtils",
+          "variableTypeTokenRange": {
+            "startIndex": 2,
+            "endIndex": 59
+          }
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "EnumValue",
+          "docComment": "/**\n * Type union of all the values an enum can be made from.\n *\n * @public\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare type "
+            },
+            {
+              "kind": "Reference",
+              "text": "EnumValue"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": " = "
+            },
+            {
+              "kind": "Reference",
+              "text": "MixedValue"
+            },
+            {
+              "kind": "Content",
+              "text": "> = {\n    ["
+            },
+            {
+              "kind": "Reference",
+              "text": "key"
+            },
+            {
+              "kind": "Content",
+              "text": ": string]: string | number;\n} | "
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": "[] | "
+            },
+            {
+              "kind": "Reference",
+              "text": "Map"
+            },
+            {
+              "kind": "Content",
+              "text": "<string | number, "
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": "> | "
+            },
+            {
+              "kind": "Reference",
+              "text": "Set"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": ">;"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "EnumValue"
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "MixedValue",
+          "docComment": "/**\n * Type union for an enum value.\n *\n * @public\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare type "
+            },
+            {
+              "kind": "Reference",
+              "text": "MixedValue"
+            },
+            {
+              "kind": "Content",
+              "text": " = string | number;"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "MixedValue"
+        }
+      ]
+    }
+  ]
+}
