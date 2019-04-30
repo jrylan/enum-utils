@@ -24,7 +24,7 @@
     "docs": "typedoc --theme markdown --out ./api-docs ./src"
   },
   "dependencies": {
-    "is-plain-object": "2.0.4"
+    "is-plain-object": "3.0.0"
   },
   "devDependencies": {
     "@babel/cli": "7.4.3",
